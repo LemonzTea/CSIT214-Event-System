@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    /* Background Image for the page */
+    background-image: url("../images/fixed images/Landingpage.jpg");
+    background-position: center center;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+main {
+    /*Box containing header and Input form*/
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    text-align: center;
+    font-size: 30px;
+}
+input {
+    font-size: 20px;
+    padding-left: 12px
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+input:valid {
+    border: 2px solid black;
+  }
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    color: rgb(0, 0, 0)0);
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+    text-shadow:
+        -1px -1px 0 rgb(255, 255, 255),
+        1px -1px 0 rgb(255, 255, 255),
+        -1px 1px 0 rgb(255, 255, 255),
+        1px 1px 0 rgb(255, 255, 255);
+    
+}

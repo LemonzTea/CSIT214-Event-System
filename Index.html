@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>UOW Events</title>
+        <link href="./CSS/Index.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+    </head>
+
+
+    <!-- Landing page for UOW Event System -->
+    <body>
+        <main>
+            <h1>UOW Events</h1>
+
+            <form action="./Index.html" method="POST">
+                <!-- Input box for Username -->
+                <label for="username">User ID :</label>
+                <input type="text" name="username" id="username" pattern="[0-9]{1,9}" oninvalid="this.setCustomValidity('This is a mandatory numerics only field')"
+                oninput="this.setCustomValidity('')" required>
+                <br>
+
+                <!-- Input box for Password -->
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required oninvalid="this.setCustomValidity('This is a mandatory field')"
+                oninput="this.setCustomValidity('')">
+                <br>
+
+                <!-- Submit button to run code -->
+                <input type="submit" value=" Login ">
+            </form>
+        </main>
+        
+    </body>
+</html>
