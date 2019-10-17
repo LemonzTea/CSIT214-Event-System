@@ -14,7 +14,7 @@
         <main>
             <h1>UOW Events</h1>
 
-            <form action="./Index.html" method="POST">
+            <form action="./student_main_page.html" method="POST">
                 <!-- Input box for Username -->
                 <label for="username">User ID :</label>
                 <input type="text" name="username" id="username" pattern="[0-9]{1,9}" oninvalid="this.setCustomValidity('This is a mandatory numerics only field')"
@@ -23,8 +23,8 @@
 
                 <!-- Input box for Password -->
                 <label for="password">Password:</label>
-                <input type="password" name="password" id="password" oninvalid="this.setCustomValidity('This is a mandatory field')"
-                oninput="this.setCustomValidity('')" required>
+                <input type="password" name="password" id="password" required oninvalid="this.setCustomValidity('This is a mandatory field')"
+                oninput="this.setCustomValidity('')">
                 <br>
 
                 <!-- Submit button to run code -->
@@ -33,4 +33,3 @@
         </main>
         
     </body>
-</html>
