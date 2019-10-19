@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <!-- Header Document Information-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>Payment</title>
+
+        <!-- Referenced CSS stylesheets -->
+        <!-- Navigation Bar Styleshee (UNIVERSALLY USED. DO NOT CHANGE THIS)-->
+        <link href="./CSS/Navigation_background.css" rel="stylesheet">
+        <!-- Add Other Stylesheets Below (PAGE SPECIFIC. CHANGE THIS) -->
+        <link href="CSS/student_payment.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="student_main_page.html">Events</a></li>
+                <li><a href="student_bookings.html">Bookings</a></li>
+                <li><a href="student_profile.html">Profile</a></li>
+                <li><a href="index.html">Logout</a></li>
+
+            </ul>
+        </nav>
+        <!-- Main Content of the Webpage -->
+        <main>
+            <!-- Page Main Function Here -->
+            <div class="box">
+                <h1>Purchase Information</h1>
+                <div id=submitform>
+                        <form action="student_payment_successful.html" method="POST">
+                            <!-- Enter Event ID Code Here-->
+                            <label for="eventid">Event ID :</label>
+                            <br>
+                            <input type="text" name="eventid" id="eventid" value="ENTER EVENT ID HERE" readonly>
+                            <br>
+                            <label for="eventname">Event Name :</label>
+                            <br>
+                            <input type="text" name="eventname" id="eventname" value="ENTER EVENT NAME HERE" readonly>
+                            <br>
+                            <label for="purchase">No. of tickets :</label>
+                            <br>
+                            <input type="text" name="purchase" id="purchase" value="ENTER NUMBER HERE" readonly>
+                            <br>
+                            <label for="totalprice">Total Payment :</label>
+                            <br>
+                            <input type="text" name="totalprice" id="totalprice" value="ENTER AMOUNT HERE" readonly>
+                            <br>
+                            <img src="./Images/Fixed Images/payment.png">
+                            <br>
+                            <input type="submit" class="submitbutton" value="Process Payment"/>
+                        </form>
+                </div>
+
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+#box {
+    text-align: center;
+}
+#submitform {
+    text-align: center;
+    width: auto;
+}
+
+input {
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color:rgba(128, 128, 128, 0.425);
+
+}

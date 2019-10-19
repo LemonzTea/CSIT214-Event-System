@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <!-- Header Document Information-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>Existing Bookings</title>
+
+        <!-- Referenced CSS stylesheets -->
+        <!-- Navigation Bar Styleshee (UNIVERSALLY USED. DO NOT CHANGE THIS)-->
+        <link href="./CSS/Navigation_background.css" rel="stylesheet">
+        <!-- Add Other Stylesheets Below (PAGE SPECIFIC. CHANGE THIS) -->
+        <link href="CSS/student_bookings.css" rel="stylesheet">
+
+    </head>
+    <body>
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="student_main_page.html">Events</a></li>
+                    <li><a href="student_bookings.html">Bookings</a></li>
+                    <li><a href="student_profile.html">Profile</a></li>
+                    <li><a href="index.html">Logout</a></li>
+
+                </ul>
+            </nav>
+            <!-- Main Content of the Webpage -->
+            <main>
+                <!-- Page Main Function Here -->
+                <div class="box">
+                    <header>
+                        <h1>Purchased Tickets</h1>
+                        <p>There is no refund of any unused or cancelled tickets</p>    
+                    </header>
+                    
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="header">Event ID</td>
+                                <td class="header">Event Name</td>
+                                <td class="header">Tickets</td>
+                                <td class="header">Purchase No.</td>
+                            </tr>
+                            <!-- Replace [Example] with Backend Codes to be here-->
+                            <tr>
+                                <td class="col1">000000001</td>
+                                <td class="col2">Learning to Fly</td>
+                                <td class="col3">02</td>
+                                <td class="col4">
+                                    <form action="student_modify_booking.html" method="POST">
+                                        <input type="text" name="purchaseno" id="purchaseno" value="ENTER PURCHASE NO. HERE" readonly>
+                                        <input type="submit" class="modifybutton" value="Modify"/>
+                                    </form>
+
+                                </td>
+                            </tr>
+                            <!-- End of Backend Code -->
+                            <div class="test only">
+                                    <tr>
+                                        <td class="col1">000000002</td>
+                                        <td class="col2">Learn Singlish</td>
+                                        <td class="col3">02</td>
+                                        <td class="col4">
+                                            <form action="student_modify_booking.html" method="POST">
+                                                <input type="text" name="purchaseno" id="purchaseno" value="ENTER PURCHASE NO. HERE" readonly>
+                                                <input type="submit" class="modifybutton" value="Modify"/>
+                                            </form>
+        
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">000000003</td>
+                                        <td class="col2">How to train your dragon</td>
+                                        <td class="col3">02</td>
+                                        <td class="col4">
+                                            <form action="student_modify_booking.html" method="POST">
+                                                <input type="text" name="purchaseno" id="purchaseno" value="ENTER PURCHASE NO. HERE" readonly>
+                                                <input type="submit" class="modifybutton" value="Modify"/>
+                                            </form>
+        
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">000000004</td>
+                                        <td class="col2">How to be needy</td>
+                                        <td class="col3">02</td>
+                                        <td class="col4">
+                                            <form action="student_modify_booking.html" method="POST">
+                                                <input type="text" name="purchaseno" id="purchaseno" value="ENTER PURCHASE NO. HERE" readonly>
+                                                <input type="submit" class="modifybutton" value="Modify"/>
+                                            </form>
+        
+                                        </td>
+                                    </tr>
+                            </div>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+    </body>
+</html>

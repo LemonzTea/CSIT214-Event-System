@@ -4,13 +4,13 @@
     <head>
         <meta charset="utf-8">
 
-        <title>Book an Event!</title>
+        <title>Modify Booking</title>
 
         <!-- Referenced CSS stylesheets -->
         <!-- Navigation Bar Styleshee (UNIVERSALLY USED. DO NOT CHANGE THIS)-->
         <link href="./CSS/Navigation_background.css" rel="stylesheet">
         <!-- Add Other Stylesheets Below (PAGE SPECIFIC. CHANGE THIS) -->
-        <link href="CSS/student_booking.css" rel="stylesheet">
+        <link href="CSS/student_modify_booking.css" rel="stylesheet">
 
     </head>
     <body>
@@ -29,7 +29,8 @@
                 <!-- Page Main Function Here -->
                 <div class="box">
                         <header>
-                            <h1>Ticket for Event</h1>    
+                            <h1>Modify Booking</h1>
+                            <p>There is no refund of any unused or cancelled tickets</p>    
                         </header>
                     
                     <div class="brochure">
@@ -72,11 +73,11 @@
 
                     <!-- Enter Event ID Code Here-->
                     <div id=submitform>
-                        <form action="student_payment.html" method="POST">
+                        <form action="student_bookings.html" method="POST">
                             <label for="eventid">Event ID :</label>
                             <input type="text" name="eventid" id="eventid" value="ENTER EVENTID HERE" readonly>
                             <label for="purchase">No. of tickets :</label>
-                            <input type="number" name="purchase" id="purchase" value="1" min="1" step="1">
+                            <input type="number" name="purchase" id="purchase" value="PREVIOUS VALUE HERE" max="PREVIOUS VALUE HERE" min="1" step="1">
                             <br>
                             <input type="submit" class="submitbutton" value="Process to purchase ticket"/>
                         </form>

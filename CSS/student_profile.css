@@ -1,0 +1,31 @@
+#eventpicture {
+    text-align: center;
+    
+}
+
+table {
+    margin: auto;
+    text-align: justify;
+}
+
+td {
+    padding: 10px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.342);
+}
+
+.col1 {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.col2 {
+    width: auto;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.col3 {
+    width: auto;
+}
