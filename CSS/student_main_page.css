@@ -5,28 +5,29 @@
 
 
 nav {
-    height: 100px;
+    line-height: 40px;
     width: 100%;
     background-color:#0c2340;
-    display: grid;
     margin: auto;
     position: fixed;
     color: white;
-    border-bottom: 5px solid rgb(117, 117, 117);
+    border-bottom: 2px solid rgb(117, 117, 117);
+    text-align: center;
+    vertical-align: middle;
     
 }
 
-nav img {
-    height: 100px;
-    width:100px;
-}
 
 nav span {
-    padding-left: 80px;
-    position: relative;
+    padding-right: 80px;
     font-size: 20px;
-    top: 10%;
     font-style: italic;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
 }
 
 nav a {
