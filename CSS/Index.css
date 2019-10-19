@@ -61,7 +61,7 @@ input:valid {
 input[type=button], input[type=submit], input[type=reset] {
     background-color: rgb(255, 255, 255);
     width: 75%;
-    color: rgb(0, 0, 0) 0);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
