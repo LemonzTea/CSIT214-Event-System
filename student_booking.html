@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <!-- Header Document Information-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>Book an Event!</title>
+
+        <!-- Referenced CSS stylesheets -->
+        <!-- Navigation Bar Styleshee (UNIVERSALLY USED. DO NOT CHANGE THIS)-->
+        <link href="./CSS/Navigation_background.css" rel="stylesheet">
+        <!-- Add Other Stylesheets Below (PAGE SPECIFIC. CHANGE THIS) -->
+        <link href="CSS/student_booking.css" rel="stylesheet">
+
+    </head>
+    <body>
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="student_main_page.html">Events</a></li>
+                    <li><a href="student_bookings.html">Bookings</a></li>
+                    <li><a href="student_profile.html">Profile</a></li>
+                    <li><a href="index.html">Logout</a></li>
+
+                </ul>
+            </nav>
+            <!-- Main Content of the Webpage -->
+            <main>
+                <!-- Page Main Function Here -->
+                <div class="box">
+                        <header>
+                            <h1>Ticket for Event</h1>    
+                        </header>
+                    
+                    <div class="brochure">
+                        <!-- Replace [Example] with Backend Codes to be here-->
+                        <div id="eventpicture">
+                            <img src="https://live.staticflickr.com/1904/45331807682_4d32968851_b.jpg">
+                        </div>
+                        <div class="ticket">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="col1">Event Name</td>
+                                        <td class="col2">:</td>
+                                        <td class="col3">[Example] Getting Lost in the MRT</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">Event Date</td>
+                                        <td class="col2">:</td>
+                                        <td class="col3">[Example] Everyday</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">Event Time</td>
+                                        <td class="col2">:</td>
+                                        <td class="col3">[Example] 00:00am</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">Venue</td>
+                                        <td class="col2">:</td>
+                                        <td class="col3">[Example] Obviously in the MRT</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="col1">Admission</td>
+                                        <td class="col2">:</td>
+                                        <td class="col3">[Example] Free</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Enter Event ID Code Here-->
+                    <div id=submitform>
+                        <form action="payement.html" method="POST">
+                            <label for="purchase">No. of tickets :</label>
+                            <input type="number" name="purchase" id="purchase" value="1" min="1" step="1">
+                            <br>
+                            <input type="submit" class="submitbutton" value="Process to purchase ticket"/>
+                        </form>
+                    </div>
+
+                </div>
+            </main>
+    </body>
+</html>
