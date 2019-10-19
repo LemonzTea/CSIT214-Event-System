@@ -5,14 +5,12 @@
 
 
 nav {
-    height: 170px;
+    height: 100px;
     width: 100%;
-    background-color:lightskyblue;
+    background-color:#0c2340;
     display: grid;
     margin: auto;
     position: fixed;
-    grid-template: 100% / 1fr 10% 10% 10%;
-    grid-template-areas: "uow all-events all-bookings logout";
     color: white;
     border-bottom: 5px solid rgb(117, 117, 117);
     
@@ -33,18 +31,7 @@ nav span {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 
     
-}
-.all-events {
-    grid-area:all-events;
-}
-
-.all-bookings {
-    grid-area:all-bookings;
-}
-
-.logout {
-    grid-area:logout;
 }
