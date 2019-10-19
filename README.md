@@ -10,3 +10,4 @@ CSIT214 Event Booking System
 19/10/2019 (Clement)
  - Created universal template layout for system
  - Changed Styling of login page to match the system design
+ - Created Cards style for Student View All Events Page
