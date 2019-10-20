@@ -1,0 +1,24 @@
+
+.box ul{
+    margin: 20px;
+    list-style-type: none;
+    border: 0px black solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.5);
+    box-shadow: 3px 3px 3px grey;
+    
+}
+
+.box ul {
+    transition: background-color .5s;
+}
+
+.box ul:hover {
+    background-color: rgb(255, 217, 0);
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}

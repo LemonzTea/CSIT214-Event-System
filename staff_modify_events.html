@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <!-- Header Document Information-->
+    <head>
+        <meta charset="utf-8">
+
+        <title>Modify Events</title>
+
+        <!-- Referenced CSS stylesheets -->
+        <!-- Navigation Bar Styleshee (UNIVERSALLY USED. DO NOT CHANGE THIS)-->
+        <link href="./CSS/Navigation_background.css" rel="stylesheet">
+        <!-- Add Other Stylesheets Below (PAGE SPECIFIC. CHANGE THIS) -->
+        <link href="CSS/staff_modify_events.css" rel="stylesheet">
+
+    </head>
+    <body>
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="staff_main_page.html">Events</a></li>
+                    <li><a href="staff_create_event.html">New Event</a></li>
+                    <li><a href="staff_modify_events.html">Modify Events</a></li>
+                    <li><a href="staff_profile.html">Profile</a></li>
+                    <li><a href="index.html">Logout</a></li>
+
+                </ul>
+            </nav>
+            <!-- Main Content of the Webpage -->
+            <main>
+                <!-- Page Main Function Here -->
+                <div class="box">
+                    <header>
+                        <h1>Events Management</h1>
+                        <p>Once status is set to deleted, it can not be recovered</p>    
+                    </header>
+                    
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="header">Event ID</td>
+                                <td class="header">Event Name</td>
+                                <td class="header">Status</td>
+                                <td class="header">Confirmation</td>
+                            </tr>
+                            <!-- Replace [Example] with Backend Codes to be here-->
+                            <tr>
+                                <form action="staff_modify_event.html" method="POST">
+                                    <td class="col1"><input type="text" name="eventid" id="eventid" value="ENTER EVENT NO. HERE" readonly></td>
+                                    <td class="col2"><input type="text" name="eventname" id="eventname" value="ENTER EVENT NAME HERE" readonly></td>
+                                    <td class="col3"><input type="text" name="eventstatus" id="eventstatus" value="ENTER EVENT STATUS HERE" readonly></td>
+                                    <td class="col4">
+                                        <select name="changestatus" id="changestatus" value="--">
+                                            <option value="noaction">--</option>
+                                            <option value="modify">Modify Event</option>
+                                            <option value="launched">Launch Event</option>
+                                            <option value="deleted">Delete Event</option>
+                                        </select>    
+                                        <input type="submit" class="modifybutton" value="Confirm"/>
+                                    </td>
+                                </form>
+                            </tr>
+                            <!-- End of Backend Code -->
+                            <div class="test only">
+                                    <tr>
+                                        <form action="staff_modify_event.html" method="POST">
+                                            <td class="col1"><input type="text" name="eventid" id="eventid" value="000000002" readonly></td>
+                                            <td class="col2"><input type="text" name="eventname" id="eventname" value="Learn Singlish" readonly></td>
+                                            <td class="col3"><input type="text" name="eventstatus" id="eventstatus" value="Launched" readonly></td>
+                                            <td class="col4">
+                                                <select name="changestatus" id="changestatus" value="--">
+                                                    <option value="noaction">--</option>
+                                                    <option value="modify">Modify Event</option>
+                                                    <option value="launched">Launch Event</option>
+                                                    <option value="deleted">Delete Event</option>
+                                                </select>    
+                                                <input type="submit" class="modifybutton" value="Confirm"/></td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <form action="staff_modify_event.html" method="POST">
+                                            <td class="col1"><input type="text" name="eventid" id="eventid" value="000000003" readonly></td>
+                                            <td class="col2"><input type="text" name="eventname" id="eventname" value="How to train your dragon" readonly></td>
+                                            <td class="col3"><input type="text" name="eventstatus" id="eventstatus" value="Deleted" readonly></td>
+                                            <td class="col4">
+                                                <select name="changestatus" id="changestatus" value="--">
+                                                    <option value="noaction">--</option>
+                                                    <option value="modify">Modify Event</option>
+                                                    <option value="launched">Launch Event</option>
+                                                    <option value="deleted">Delete Event</option>
+                                                </select>    
+                                                <input type="submit" class="modifybutton" value="Confirm"/></td>
+                                        </form>
+                                    </tr>
+                                    <tr>
+                                        <form action="staff_modify_event.html" method="POST">
+                                            <td class="col1"><input type="text" name="eventid" id="eventid" value="000000004" readonly></td>
+                                            <td class="col2"><input type="text" name="eventname" id="eventname" value="How to be needy" readonly></td>
+                                            <td class="col3"><input type="text" name="eventstatus" id="eventstatus" value="Draft" readonly></td>
+                                            <td class="col4">
+                                                <select name="changestatus" id="changestatus" value="--">
+                                                    <option value="noaction">--</option>
+                                                    <option value="modify">Modify Event</option>
+                                                    <option value="launched">Launch Event</option>
+                                                    <option value="deleted">Delete Event</option>
+                                                </select>    
+                                                <input type="submit" class="modifybutton" value="Confirm"/></td>
+                                        </form>
+                                    </tr>
+                            </div>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+    </body>
+</html>

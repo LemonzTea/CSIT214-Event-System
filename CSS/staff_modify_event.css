@@ -1,0 +1,87 @@
+.box {
+    text-align: center;
+    margin: auto;
+}
+p {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(73, 73, 73, 0.438);
+}
+
+#eventpicture {
+    text-align: center;
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+table {
+    text-align: justify;
+}
+
+td {
+    padding: 10px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.342);
+}
+
+.col1 {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.col2 {
+    width: auto;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.col3 {
+    width: auto;
+}
+
+input {
+    width: auto;
+}
+
+#submitbox {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+
+}
+.submitbutton {
+    padding: 0px 50px;
+}
+
+#eventid {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+#eventname, #eventimageurl, #eventvenue{
+    min-width: 400px;
+}
+
+#eventvenue {
+    min-height: 70px;
+}
+
+#eventcapacity, #eventcost, #eventcode, #eventcoderate{
+    max-width: 60px;
+}
