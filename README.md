@@ -1,18 +1,8 @@
-CSIT214
-CSIT214 Event Booking System
+Event Management System
 
-17/10/2019 
- - Developed login page w/css styling
- - Added numberics only login ID + compulsory field
- - Added Password to be a compulsory field
+This is a web application that allows ticketing for events
 
-
-19/10/2019 
- - Created universal template layout for system
- - Changed Styling of login page to match the system design
- - Created Cards style for Student View All Events Page
- - Completed Front End pages and style for Student User
+Events Managers can promote their event via this website, and allow tickets to be purchased
+Event Participants can look for interested events and purchase tickets to said event.
 
 
- 20/10/2019 
-  - Completed Staff Users Pages and Design
